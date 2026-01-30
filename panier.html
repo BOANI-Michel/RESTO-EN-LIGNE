@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Panier |BebussExpress</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+<!-- NAVBAR -->
+<header class="bg-white shadow">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+    <h1 class="text-2xl font-bold text-orange-500">FoodExpress</h1>
+    <nav class="space-x-6 fixed top-0 w-full text-center text-2xl">
+      <a href="index.html" class="hover:text-orange-500">Accueil</a>
+      <a href="restaurants.html" class="hover:text-orange-500">Restaurants</a>
+      <a href="menu.html" class="hover:text-violet-500">Menu</a>
+      <a href="panier.html" class="text-orange-500 font-semibold">Panier</a>
+      <a href="contact.html" class="hover:text-orange-500">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<!-- TITRE -->
+<section class="py-12">
+  <div class="max-w-4xl mx-auto px-6">
+    <h2 class="text-3xl font-bold mb-2">Votre panier</h2>
+    <p class="text-gray-600">Vérifiez votre commande avant validation</p>
+  </div>
+</section>
+
+<!-- CONTENU PANIER -->
+<section class="pb-16">
+  <div class="max-w-4xl mx-auto px-6 bg-white rounded-xl shadow p-6">
+
+    <!-- Article -->
+    <div class="flex justify-between border-b pb-4 mb-4">
+      <div>
+        <h3 class="font-semibold">Poulet braisé</h3>
+        <p class="text-gray-500 text-sm">Le Gourmet</p>
+      </div>
+      <p class="font-semibold">6500 F</p>
+    </div>
+
+    <div class="flex justify-between border-b pb-4 mb-4">
+      <div>
+        <h3 class="font-semibold">Riz sauce graine</h3>
+        <p class="text-gray-500 text-sm">Le Gourmet</p>
+      </div>
+      <p class="font-semibold">8000 F</p>
+    </div>
+
+    <!-- TOTAL -->
+    <div class="flex justify-between text-xl font-bold mt-6">
+      <span>Total</span>
+      <span>14500 F</span>
+    </div>
+
+    <!-- INFO -->
+    <p class="text-sm text-gray-500 mt-4">
+      Le paiement en ligne sera disponible prochainement.
+    </p>
+
+    <!-- BOUTON -->
+    <button
+      class="w-full mt-6 bg-gray-400 text-white py-3 rounded-xl cursor-not-allowed">
+      Commander
+    </button>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-gray-900 text-white py-6">
+  <div class="text-center">
+    © 2026 BebussExpress – Prototype frontend
+  </div>
+</footer>
+
+</body>
+</html>
