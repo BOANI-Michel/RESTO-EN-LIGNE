@@ -11,14 +11,14 @@
 
 <!-- NAVBAR -->
 <header class="bg-white shadow">
-  <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-    <h1 class="text-2xl font-bold text-orange-500">FoodExpress</h1>
-    <nav class="space-x-6 fixed top-0 w-full text-center text-2xl">
-      <a href="index.html" class="hover:text-orange-500">Accueil</a>
-      <a href="restaurants.html" class="hover:text-orange-500">Restaurants</a>
+  <div class="fixed max-w-7xl mx-auto px-6 py-4 flex flex-col gap-4 md:justify-between md:items-center">
+    <h1 class="text-2xl font-bold text-red-500 text-center md: text-left">BebussFood</h1>
+    <nav class="flex flex-col text-blue-500 items-center gap-3 md:flex-row md:gap-8 text-lg">
+      <a href="index.html" class="hover:text-green-500">Accueil</a>
+      <a href="restaurants.html" class="hover:text-yellow-500">Restaurants</a>
       <a href="menu.html" class="hover:text-violet-500">Menu</a>
-      <a href="panier.html" class="hover:text-orange-500">Panier</a>
-      <a href="contact.html" class="text-orange-500 font-semibold">Contact</a>
+      <a href="panier.html" class="hover:text-red-500">Panier</a>
+      <a href="contact.html" class="text-pink-500 font-semibold">Contact</a>
     </nav>
   </div>
 </header>
@@ -40,20 +40,20 @@
     <form>
       <div class="mb-4">
         <label for="nom" class="block mb-1 text-orange-500 font-semibold">Nom</label>
-        <input id="nom" type="text"
-               class="w-full border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-500">
+        <input id="nom" type="text" placeholder="Your name"
+               class="w-full border bg-green-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-500">
       </div>
 
       <div class="mb-4">
         <label for="email" class="block mb-1 text-orange-500 font-semibold">Email</label>
-        <input id="email" type="email"
-               class="w-full border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-500">
+        <input id="email" type="email" placeholder="Your email"
+               class="w-full border bg-green-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-500">
       </div>
 
       <div class="mb-4">
         <label for="message" class="block mb-1 text-orange-500 font-semibold">Message</label>
-        <textarea id="message" rows="4"
-                  class="w-full border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-500"></textarea>
+        <textarea id="message" rows="4" placeholder="enter your message"
+                  class="w-full border bg-green-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-500"></textarea>
       </div>
 
       <button type="submit"
